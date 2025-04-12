@@ -1,0 +1,8 @@
+.font-serif { font-family: serif; }
+        .progress { height: 0.5rem; }
+        .progress-bar { background-color: #f15b74; } /* Rose proche de rose-500 */
+        .bg-dark-theme { background-color: #000; color: #fff; }
+        .border-gray-600 { border-color: #4b5563; }
+        .text-gray-200 { color: #e5e7eb; }
+        .bg-gray-100 { background-color: #808b9f; }
+        .underline-bar { display: inline-block; height: 4px; background-color: #f43f5e; border-radius: 0.25rem; }
