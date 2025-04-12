@@ -1,0 +1,36 @@
+.libre-baskerville-bold { font-family: 'Libre Baskerville', serif; font-weight: bold; }
+        .font-serif { font-family: serif; }
+
+        /* Conteneur pour l'animation */
+        .typing-container {
+            display: inline-block;
+            position: relative;
+            height: 1.5em; /* Ajustez selon la taille du texte */
+            overflow: hidden;
+        }
+
+        /* Liste des textes */
+        .typing-texts {
+            position: relative;
+            animation: slide 20s infinite;
+        }
+
+        /* Chaque texte individuel */
+        .typing-texts span {
+            display: block;
+            white-space: nowrap;
+            height: 1.5em; /* Correspond à la hauteur du conteneur */
+            line-height: 1.5em;
+        }
+
+
+
+        /* Animation keyframes */
+        @keyframes slide {
+            0%, 18% { transform: translateY(0); } /* mmmmm */
+            20%, 38% { transform: translateY(-1.5em); } /* FullStack */
+            40%, 58% { transform: translateY(-3em); } /* Frontend */
+            60%, 78% { transform: translateY(-4.5em); } /* Backend */
+            80%, 98% { transform: translateY(-6em); } /* Mobile Apps */
+            100% { transform: translateY(0); } /* Retour au début */
+        }
